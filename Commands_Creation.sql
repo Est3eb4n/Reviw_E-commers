@@ -1,5 +1,6 @@
 
 
+
 create database if not exists E_commers
 
 use E_commers
