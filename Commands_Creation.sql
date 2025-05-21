@@ -34,7 +34,6 @@ create table if not exists categories(
     active boolean default true
 );
 
-
 create table if not exists user(
     id int primary key auto_increment,
     code varchar(4) not null,
@@ -64,7 +63,6 @@ create table if not exists products(
     vat varchar(250),
     active boolean default true
 );
-
 
 create table if not exists detalis(
     id int primary key auto_increment,
